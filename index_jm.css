@@ -1,0 +1,69 @@
+:root{
+    --verde:#00A149;
+    --blanco:#fff;
+    --rojo:#881014;
+    --oscuro:#000;
+    --titulos:'Arima madurai',cursive; 
+    --parrafos:'Mulish',san-serif;
+}
+html{
+    box-sizing: border-box;
+}
+
+*,*::after, *::before{
+    box-sizing: inherit;
+}
+/*globales*/
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+h1,h2{
+    font-family: var(--titulos);
+}
+h3,p,a{
+    font-family:var(--parrafos);
+}
+.verde{
+    color:var(--verde);
+}
+.rojo{
+    color: var(--rojo);
+}
+.ocultar{
+    display: none;
+}
+/*encabezado*/
+.contenedor-navegacion{
+    background-color: var(--oscuro)
+}
+.contenido-navegacion{
+    display:flex;
+    display:flex-direction;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h2,.navegacion a{
+    color: var(--blanco);
+}
+.logo h2{
+    font-size: 3rem;
+}
+.navegacion a{
+    text-decoration:none;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.hamburguesa span{
+    background-color: var(--blanco);
+    display: block;
+    width: 5rem;
+    height: .5rem;
+    margin-bottom:.5rem;
+}
+/*video*/
+video{
+    width:100%;
+    height:100%;
+}
